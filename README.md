@@ -8,3 +8,10 @@ This repository provides ansible scripts for my walkthrough of [kubernetes-the-h
 
 ## Target Audience
 This repository is for people who would like to see how someone would bootstrap a kuberentes cluster, with minimal automation.
+
+## Prerequistes
+
+### Ansible
+
+* Ansible 7.2.0
+* SSH-Keys for a user with administrative rights (sudo) deployed onto all SBCs. Repeat for every SBC you have: ``` ssh-copy-id user@bpi ```
